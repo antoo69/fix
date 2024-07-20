@@ -12,7 +12,9 @@ from pytgcalls import PyTgCalls
 from pytgcalls.types import Update
 from pytgcalls.types.input_stream import InputAudioStream
 from pytgcalls.types.input_stream import InputStream
-from youtube_dl import YoutubeDL
+from youtube_dl import Youtube
+
+cookies= 'youtube_cookies.txt'
 
 app = Client("my_bot")
 pytgcalls = PyTgCalls(app)
@@ -27,6 +29,7 @@ async def play(client: Client, message: Message):
             'key': 'FFmpegExtractAudio',
             'preferredcodec': 'mp3',
             'preferredquality': '192',
+            'cookiesfile": youtube_cookies.txt,
         }],
     }
     with YoutubeDL(ydl_opts) as ydl:
