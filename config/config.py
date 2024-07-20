@@ -53,7 +53,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/fadhilarab47/sma",
+    "https://github.com/antoo69/modul9",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -90,7 +90,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/",
+    "https://github.com/fix-",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -103,10 +103,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/SiArabStore"
+    "SUPPORT_CHANNEL", "https://t.me/Nenen_degrees"
 )  # Example:- https://t.me/TheTeamVivek
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/SiArab_Support"
+    "SUPPORT_GROUP", "https://t.me/BestieVirtual"
 )  # Example:- https://t.me/TheTeamVk
 
 
@@ -215,16 +215,16 @@ PHOTO = list(
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg",
+    "https://telegra.ph//file/6ede8d36c52ca5b30e4a0.jpg",
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph//file/fdc145a9682b8e6c835e8.jpg",
+    "https://telegra.ph//file/a5c64b31f6929355aa629.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://telegra.ph/file/f4edfbd83ec3150284aae.jpg",
+    "https://telegra.ph//file/367d54c914940e75f159e.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
@@ -234,7 +234,7 @@ GLOBAL_IMG_URL = getenv(
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://telegra.ph//file/fdc145a9682b8e6c835e8.jpg",
+    "https://telegra.ph//file/fe48ad968410e4e63f6e3.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
