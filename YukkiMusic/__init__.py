@@ -5,7 +5,7 @@
 # and is released under the MIT License.
 # Please see < https://github.com/TheTeamVivek/YukkiMusic/blob/master/LICENSE >
 #
-# All rights reserved.
+# Apakah ada perbaiki kesalahan pada file tersebut.py?
 
 
 from SafoneAPI import SafoneAPI
@@ -29,6 +29,7 @@ dbb()
 heroku()
 
 # Load Sudo Users from DB
+sudo.load_sudo_users()
 sudo()
 api = SafoneAPI()
 # Bot Client
