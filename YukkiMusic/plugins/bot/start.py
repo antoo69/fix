@@ -44,7 +44,7 @@ from .help import help_parser
 loop = asyncio.get_running_loop()
 
 
-@app.on_message(filters.command(["astart"]) & filters.private & ~BANNED_USERS)
+@app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
 async def start_comm(client, message: Message, _):
     chat_id = message.chat.id
@@ -250,7 +250,7 @@ async def start_comm(client, message: Message, _):
             )
 
 
-@app.on_message(filters.command(["astart"]) & filters.group & ~BANNED_USERS)
+@app.on_message(filters.command(["start"]) & filters.group & ~BANNED_USERS)
 @LanguageStart
 async def testbot(client, message: Message, _):
     out = alive_panel(_)
