@@ -82,7 +82,7 @@ def __list_all_modules():
     work_dirs = [main_repo_plugins_dir]
 
     if extra_plugins_enabled:
-        logger.info(f"loading extra plugins from {https://github.com/antoo69/modul9}")
+        logger.info(f"loading extra plugins from {EXTRA_PLUGINS_REPO}")
         work_dirs.append(join(EXTERNAL_REPO_PATH, "plugins"))
 
     all_modules = []
@@ -94,7 +94,7 @@ def __list_all_modules():
         modules = [
             (
                 (
-                    (f.replace(main_repo_plugins_dir, "modul9")).replace(
+                    (f.replace(main_repo_plugins_dir, "YukkiMusic.plugins")).replace(
                         EXTERNAL_REPO_PATH, EXTRA_PLUGINS_FOLDER
                     )
                 ).replace(os.sep, ".")
